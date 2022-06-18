@@ -1,15 +1,9 @@
-import Head from "next/head";
-
-export default function Home() {
+const Home = () => {
   return (
-    <>
-      <Head>
-        <title>Pokemon Unite</title>
-      </Head>
-      <main>
-        <h1>Pokemon Unite Guide</h1>
-      </main>
-      <footer>Copyright &copy; 2022 UniteInfo Inc. All rights reserved</footer>
-    </>
+    <main>
+      <h1>Hi There</h1>
+    </main>
   );
-}
+};
+
+export default Home;
