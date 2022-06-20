@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 
 const Document = () => {
   return (
@@ -21,7 +22,11 @@ const Document = () => {
 
         {/* GOOGLE FONT */}
         <link rel='preconnect' href='https://fonts.googleapis.com' />
-        <link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin />
+        <link
+          rel='preconnect'
+          href='https://fonts.gstatic.com'
+          crossOrigin='true'
+        />
         <link
           href='https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap'
           rel='stylesheet'
@@ -31,6 +36,17 @@ const Document = () => {
       <body>
         <Main />
         <NextScript />
+
+        <script
+          type='module'
+          src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js'
+          defer
+        ></script>
+        <script
+          noModule={true}
+          src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js'
+          defer
+        ></script>
       </body>
     </Html>
   );

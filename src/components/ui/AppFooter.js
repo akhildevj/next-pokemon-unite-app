@@ -1,6 +1,8 @@
 const AppFooter = () => {
   return (
-    <footer>Copyright &copy; 2022 UniteInfo Inc. All rights reserved</footer>
+    <footer className='footer'>
+      Copyright &copy; 2022 UniteInfo Inc. All rights reserved
+    </footer>
   );
 };
 

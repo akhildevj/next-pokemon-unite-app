@@ -1,9 +1,7 @@
+import UniteHome from '../src/components/unite/UniteHome';
+
 const Home = () => {
-  return (
-    <main>
-      <h1>Hi There</h1>
-    </main>
-  );
+  return <UniteHome />;
 };
 
 export default Home;
