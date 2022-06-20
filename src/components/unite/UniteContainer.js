@@ -1,4 +1,4 @@
-import { useData } from '../../contexts/appContext';
+import { useData } from '../../contexts/AppContext';
 import PokemonCard from './PokemonCard';
 
 const UniteContainer = () => {

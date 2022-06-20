@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useData } from '../../contexts/appContext';
+import { useData } from '../../contexts/AppContext';
 
 const UniteFilter = () => {
   const { originalData, data, setData, resetData } = useData();
